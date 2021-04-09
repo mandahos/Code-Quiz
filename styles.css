@@ -1,0 +1,35 @@
+nav {
+    background-color: aliceblue;
+    overflow: auto;
+}
+
+nav a {
+    display: inline-block;
+    text-align: center;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+
+
+section h1 {
+    font-size: 36px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    text-align: center;
+    background-color: blueviolet;
+    font-size: 18px;
+    width: 50%;
+    color: cornsilk;
+    margin-left: 25%;
+    padding: 25px 20px 25px 20px;
+}
+
+button:hover {
+    background-color: cornsilk;
+    color: blueviolet;
+    text-decoration: bold;
+}
