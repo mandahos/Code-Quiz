@@ -8,17 +8,47 @@
     <title>Quiz</title>
 </head>
     <nav>
-<a href="#scores">View Scores</a>
-<a>Time Remaining:</a>
-    </nav>
+        <a href="Time">Time Remaining </a>
+        <a href="High Scores">Show High Scores</a>
 
-<body>
-    <section>
-    <h1>Coding Quiz Challenge</h1>
+        </nav>
+        <div>
+            <button type="start" value="start" onclick="start()">Start Quiz</button>
+        </div>
+        
+        <body>
+            
+            <h3>Question1: What brackets do you use to start an array in JavaScript?</h3>
+            Options:<br>
+      <input type="radio" name="question1"> a:> <br>
+      <input type="radio" name="question1" id="correctAnswer1"> b:[ <br>
+      <input type="radio" name="question1"> c:{ <br>
+      </div>
+   
+   <!-- correctAnswer: "b" -->
 
-    <button id="take quiz">Start</button>
+          <h3>Question2: Which of the following is NOT an example of a JavaScript data type?</h3>
+    Options: <br>
+    <input type="radio" name="question2"> a:strings <br>
+    <input type="radio" name="question2"> b:objects <br>
+    <input type="radio" name="question2" id="correctAnswer2"> c:booms <br>
+   
+    
+    <!-- correctAnswer: "c" -->
 
-    </section>
+    
+  <h3>Question3: Which of the following is a JavaScript arithmetic operator?</h3>
+  Options: <br>
+    <input type="radio" name="question3" id=correctAnswer3>  a:+ <br>
+    <input type="radio" name="question3">  b:# <br>
+    <input type="radio" name="question3">  c:! <br>
+  
+  
+    <!-- correctAnswer: "a" -->
+ 
+    <div>
+        <button type="result" value="result" onclick="result()">Submit Quiz</button>
+    </div>
 
     <script src="./script.js"></script>
 </body>
