@@ -11,7 +11,7 @@ To create a quiz, that has a timed score evalution
 
 
 ## Website
-https://lernantino.github.io/run-buddy/
+https://mandahos.github.io/Code-Quiz/
 
 ## Contribution
 Made by Amanda Hoshor
