@@ -55,12 +55,15 @@ body {
 .hide{
     display: none;
 }
-h1 {
+
+
+
+/* h1 {
     font-size: 36px;
     justify-content: center;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+} */
 
 /* button {
     text-align: center;

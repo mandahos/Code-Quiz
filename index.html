@@ -5,51 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    <title>Quiz</title>
+    <title>Code Quiz</title>
 </head>
-    <nav>
-        <a href="Time">Time Remaining </a>
-        <a href="High Scores">Show High Scores</a>
-
-        </nav>
-        <div>
-            <button type="start" value="start" onclick="start()">Start Quiz</button>
-        </div>
-        
-        <body>
-            
-            <h3>Question1: What brackets do you use to start an array in JavaScript?</h3>
-            Options:<br>
-      <input type="radio" name="question1"> a:> <br>
-      <input type="radio" name="question1" id="correctAnswer1"> b:[ <br>
-      <input type="radio" name="question1"> c:{ <br>
-      </div>
-   
-   <!-- correctAnswer: "b" -->
-
-          <h3>Question2: Which of the following is NOT an example of a JavaScript data type?</h3>
-    Options: <br>
-    <input type="radio" name="question2"> a:strings <br>
-    <input type="radio" name="question2"> b:objects <br>
-    <input type="radio" name="question2" id="correctAnswer2"> c:booms <br>
-   
-    
-    <!-- correctAnswer: "c" -->
-
-    
-  <h3>Question3: Which of the following is a JavaScript arithmetic operator?</h3>
-  Options: <br>
-    <input type="radio" name="question3" id=correctAnswer3>  a:+ <br>
-    <input type="radio" name="question3">  b:# <br>
-    <input type="radio" name="question3">  c:! <br>
-  
-  
-    <!-- correctAnswer: "a" -->
- 
-    <div>
-        <button type="result" value="result" onclick="result()">Submit Quiz</button>
+<body>
+    <div class="box">
+        <div id="question-box" class="hide">
+            <div id="question">Question</div>
+            <div id="answer-btn" class="btn-grid">
+            <button class="btn">Answer 1</button>
+            <button class="btn">Answer 2</button>
+            <button class="btn">Answer 3</button>
+            </div>
+            </div>
+        <button id="start-btn" class="start-btn btn">Start</button>    
+        <button id="next-btn" class="next-btn btn hide">Next Question</button>
     </div>
-
-    <script src="./script.js"></script>
+        </div>
+        <script defer src="./script.js"></script>
+        
 </body>
 </html>
