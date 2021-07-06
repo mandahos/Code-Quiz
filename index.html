@@ -8,19 +8,22 @@
     <title>Code Quiz</title>
 </head>
 <body>
-    <div class="box">
-        <div id="question-box" class="hide">
-            <div id="question">Question</div>
-            <div id="answer-btn" class="btn-grid">
-            <button class="btn">Answer 1</button>
-            <button class="btn">Answer 2</button>
-            <button class="btn">Answer 3</button>
-            </div>
-            </div>
-        <button id="start-btn" class="start-btn btn">Start</button>    
-        <button id="next-btn" class="next-btn btn hide">Next Question</button>
-    </div>
+    <header class="head">
+        <button class="highscore">High Score</button>
+        <a class="reset" href="index.html">Play Again</a>
+        <div class="timer">Time:
+            <span class="time">45</span>
         </div>
+    </header>
+    <main class="main">
+        <h1 class="welcome">Ready for the Challenge?</h1>
+        <h3 class="info">Test your skills, be scored based on how many you can answer correctly!</h3>
+        <button class="st-btn" id="start">Start Quiz</button>
+        <div class="end"></div>
+        <div class="result"></div>
+    </main>
+
+</html>
         <script defer src="./script.js"></script>
         
 </body>
