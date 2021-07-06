@@ -1,82 +1,76 @@
-
-/* nav {
-    background-color: aliceblue;
-    overflow: auto;
-}
-
-nav a {
-    display: flex;
-    justify-content: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-decoration: none;
-  } */
 * {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-body {
     padding: 0;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.box{
-    width: 800px;
-    max-width: 80%;
+    text-decoration: none;
     background-color: lightgray;
-    border-radius: 10px;
-    padding: 20px;
-}
-.btn-grid {
-    display: grid;
-    gap: 20px;
-    margin: 20px 0;
-   }
 
-.start-btn, .next-btn {
-    justify-content: center;
-    margin: 25px;
-    display: row;
-    background-color: blueviolet;
+}
+
+.main {
+    font-size: 28px;
+    text-align: center;
+    width: 60%;
+    padding: 18px;
+    margin: 70px auto;
+    border: 2px dashed blueviolet;
+     
+}
+
+.timer {
+   float: left;
+   font-size: 22px;
+   border: 4px solid cornflowerblue;
+   background-color: lightgray;
+
+}
+
+.time {
+    float: left;
+    font: large;
+    background-color: lightgray;
+
+}
+
+.st-btn, .submit {
     font-size: 22px;
-    width: 25%;
-    color: cornsilk;
-    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    width: 18%;
+    height: 18%;
+    background-color: lightgray;
+    border: 4px solid cornflowerblue;
 
 }
-.controls {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.highscore, .reset {
+    color: black;
+    font-size: 22px;
+    border: 4px solid cornflowerblue;
+    background-color: lightgray;
+
 }
-.hide{
-    display: none;
-}
 
-
-
-/* h1 {
+.quesses {
+    font-weight: bolder;
     font-size: 36px;
-    justify-content: center;
+    text-align: justify;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-} */
+    width: 100px;
+    height: 50;
+    background-color: lightgray;
+    border: 4px solid cornflowerblue;
 
-/* button {
-    text-align: center;
-    background-color: blueviolet;
-    font-size: 18px;
-    width: 50%;
-    color: cornsilk;
-    margin-left: 25%;
-    padding: 25px 20px 25px 20px;
 }
 
-button:hover {
-    background-color: cornsilk;
-    color: blueviolet;
-    text-decoration: bold;
-} */
+.input {
+    width: 160px;
+    height: 40px;
+    font-weight: bold;
+    font-size: x-large;
+    
+}
+
+h3 {
+    display: inline-flex;
+
+}
